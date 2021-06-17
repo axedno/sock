@@ -1,0 +1,40 @@
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+table {
+  border-collapse: collapse;
+}
+th {
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+td {
+  border: 2px solid grey;
+}
+tr:hover td {
+  background: lightblue;
+}
+.result{
+  text-align: left;
+  padding-left: 20px;
+  color: red;
+}
+.result_numb{
+  text-align: center;
+  color: red;
+}
+.name{
+  padding-left: 20px;
+}
+.count{
+  text-align: center;
+}
+.allPrice:hover{
+  text-decoration: underline;
+}
